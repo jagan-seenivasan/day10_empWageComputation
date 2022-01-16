@@ -1,0 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace day10_Emp_Wages_Computation
+{
+    interface ComputeEmpWage(I)
+    {
+        void addCompanyEmpWage(string company, int empRatePerHour, int numOfWorkingDays, int maxHoursPerMnth);
+        void computeEmpWage();
+
+        int getTotalWage(string company);
+    }
+}
