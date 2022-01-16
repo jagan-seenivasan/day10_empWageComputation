@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Employee_Wages_Computation
+namespace day10_Employee_Wages_Computation
 {
     class UC2_DailyWage
     {
